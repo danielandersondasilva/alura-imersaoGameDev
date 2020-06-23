@@ -22,7 +22,7 @@ const matrizPersonagem = [[]];
 for (let i = 0; i < 4; i++) {
   for (let j = 0; j < 4; j++) {
     matrizPersonagem.push([j * 220, i * 270])
-    console.log(j * 220, i * 270);
+    // console.log(j * 220, i * 270);
 
   }
 }
@@ -44,7 +44,7 @@ function setup() {
   personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 110, 135, 220, 270);
   inimigo = new Inimigo(matrizInimigo, imagemInimigo, width - 52, 52, 52, 104, 104);
   frameRate(30)
-  //somDoJogo.loop();
+  somDoJogo.loop();
 }
 
 function keyPressed() {
