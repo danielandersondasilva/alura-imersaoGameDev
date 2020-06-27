@@ -5,21 +5,25 @@ let imagemInimigoGrande;
 let imagemInimigoVoador;
 let imagemGameOver;
 let imagemTelaInicial;
+let imagemVida;
 let fonteTelaInicial;
 let somDoPulo
+let jogo;
+
+let cenaAtual = 'jogo';
+let cenas;
+let botaoGerenciador;
+let vida;
+let fita;
+
 let cenario;
 let somDoJogo
 let personagem;
 let inimigo;
 let inimigoGrande;
 let inimigoVoador;
-let pontuacao;
-let jogo;
-let cenaAtual = 'telaInicial';
-let cenas;
 let telaInicial;
-let botaoGerenciador;
-
+let pontuacao;
 const matrizInimigo = [[]];
 for (let i = 0; i < 7; i++) {
     for (let j = 0; j < 4; j++) {
