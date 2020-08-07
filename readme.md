@@ -1,3 +1,3 @@
-# Jogo criado em aula no curso de jogos clássico na Alura
+# Jogo criado na Imersão GameDev promovida pela Alura
 
-[Click aqui para testar o jogo](https://danielandersondasilva.github.io/alura-JogosClassicosParte2LacosEListasComJavascript/)
+[Click aqui para testar o jogo](https://danielandersondasilva.github.io/alura-imersaoGameDev/)
